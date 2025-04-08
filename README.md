@@ -8,70 +8,30 @@
 - Отображает наличие товаров на складе
 - Показывает цены на товары
 
-## Что я использовал
-- PHP для бэкенда
-- MySQL для хранения данных
-- Bootstrap 5 для красивого интерфейса
-- HTML/CSS для верстки
-
-## Как запустить проект
-1. Скачайте проект:
+## Как установить
+1. Скачай проект:
 ```bash
 git clone https://github.com/P0NIZAVRIK/nutnet.git
 ```
 
-2. Настройте базу данных:
-- Импортируйте `db_dump.sql` в вашу MySQL
-- Это создаст все нужные таблицы
+2. Настрой базу данных:
+- Открой phpMyAdmin
+- Создай базу `nutnet`
+- Импортируй `db_dump.sql`
 
-3. Подключите базу:
-- Откройте `db.php`
-- Впишите свои данные для подключения к MySQL
+3. Подключи базу:
+- Открой `db.php`
+- Впиши свои данные для MySQL
 
-4. Запустите через веб-сервер (я использовал OSPanel)
+4. Запусти через OSPanel:
+- Открой OSPanel
+- Перетащи папку в домены
+- Открой http://nutnet
 
-## Как устроена база данных
-Я создал три основные таблицы:
-- `product` - здесь хранится информация о товарах
-- `categories` - здесь список категорий товаров
-- `warehouse` - здесь данные о наличии товаров на складе
+## Что внутри
+- PHP для работы с данными
+- MySQL для хранения
+- Bootstrap для красивого вида
+- Три таблицы: товары, категории, склад
 
-Если у вас есть вопросы по проекту - пишите в Issues, я обязательно отвечу!
-
----
-
-# NutNet - Warehouse Management System
-
-## Project Description
-NutNet is a web application for warehouse management that allows tracking products, their categories, and stock availability.
-
-### Main Features
-- Product list viewing
-- Product categories display
-- Stock availability tracking
-- Price viewing
-
-## Technologies
-- PHP
-- MySQL
-- Bootstrap 5
-- HTML/CSS
-
-## Installation
-1. Clone the repository:
-```bash
-git clone https://github.com/P0NIZAVRIK/nutnet.git
-```
-
-2. Import the database:
-- Use the `db_dump.sql` file to create the database structure
-
-3. Configure database connection:
-- Edit the `db.php` file with your credentials
-
-4. Run the project through a web server
-
-## Database Structure
-- `product` table - product information
-- `categories` table - product categories
-- `warehouse` table - stock availability information 
+Если есть вопросы - пиши в Issues!
