@@ -32,3 +32,40 @@ git clone https://github.com/P0NIZAVRIK/nutnet.git
 - `product` - здесь хранится информация о товарах
 - `categories` - здесь список категорий товаров
 - `warehouse` - здесь данные о наличии товаров на складе
+
+---
+
+# Warehouse Management System
+
+Hello, this is my project for creating a warehouse management system.
+
+## System Features
+- Shows a list of all products
+- Groups products by categories
+- Displays product availability in the warehouse
+- Shows product prices
+
+## Technologies Used
+- PHP for backend
+- MySQL for data storage
+- Bootstrap 5 for a beautiful interface
+
+## How to Run the Project
+1. Download the project:
+```bash
+git clone https://github.com/P0NIZAVRIK/nutnet.git
+```
+
+2. Set up the database:
+- Import `db_dump.sql` into your MySQL
+
+3. Connect the database:
+- Open `db.php`
+
+4. Run through a web server (I used OSPanel)
+
+## Database Structure
+I created three main tables:
+- `product` - stores product information
+- `categories` - contains product categories
+- `warehouse` - contains data about product availability in the warehouse
